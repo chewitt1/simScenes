@@ -1,0 +1,83 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #e9d2fd;
+    cursor: pointer;
+}
+a:active{
+    color: #c79198;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a3b884;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    color: #d7cae3;
+}
+
+.header-left, .header-right{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+}
+
+.hello{
+    text-align: center;
+    font-size: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: #a3b884;
+    padding: 12px;
+}
+
+/* Documentation Page*/
+.docs-content{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.sidebar{
+    width: 150px;
+    background-color: bisque;
+    padding: 6px;
+}
+
+.sidebar-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
